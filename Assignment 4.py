@@ -3,7 +3,7 @@
 
 # In[3]:
 
-
+#question 1
 num=int(input("please enter marks : "))
 
 if num>=80:
@@ -22,9 +22,7 @@ else:
      
 
 
-# In[1]:
-
-
+#question 2
 year=int(input("Please enter the year: "))
 if year%4==0 and year%100!=0:
     print("It's a leap year")
@@ -34,8 +32,8 @@ else:
     print("it's not a leap year")
 
 
-# In[2]:
 
+#question 3
 
 import random
 for i in range(1,11):
@@ -47,10 +45,8 @@ for i in range(1,11):
         print("Right!")
     else:
         print("Wrong. The correct answer is", a*b)
-
-
-# In[2]:
-
+        
+#question 4
 
 x=0 
 for x in range(0,200):
@@ -59,7 +55,7 @@ for x in range(0,200):
     
 
 
-# In[ ]:
+
 
 
 
