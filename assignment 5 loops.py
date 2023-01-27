@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[10]:
 
 
+#question 1
 s = input("Enter a string : ")
 
 i = len(s)
@@ -19,9 +19,7 @@ while a <=i :
 print(b)
 
 
-# In[2]:
-
-
+#question 2
 num1 = int(input("Enter the Number : "))
 r1 = int(input("Range starts from :"))
 r2 = int(input("Range ends to :"))
@@ -33,9 +31,7 @@ for a in range(r1,r2):
         
 
 
-# In[3]:
-
-
+#question 3
 a = int(input("Enter the First side of the triangle"))
 b = int(input("Enter the Second side of the triangle"))
 c = int(input("Enter the Third side of the triangle"))
@@ -46,9 +42,9 @@ a = (s*(s-a)*(s-c)*(s-b))**1/2
 print("Area =", str(a))
 
 
-# In[4]:
 
 
+#question 4
 odd = int(input("Enter an odd number : "))
 
 
@@ -64,9 +60,19 @@ else:
         print("*" * e)
 
 
-# In[5]:
+#question 5
+r1 = int(input("Enter Start of range : \n"))
+r2 = int(input("Enter End of range : \n"))
 
+for a in range(r1,r2+1):
+    for j in range(2,a):
+        if a % j == 0:
+            break
+    else:
+        print( a , end=" ")
+        
 
+#question 6
 r1 = int(input("Enter Start of range : \n"))
 r2 = int(input("Enter End of range : \n"))
 
@@ -78,31 +84,15 @@ for a in range(r1,r2+1):
         print( a , end=" ")
 
 
-# In[6]:
-
-
-r1 = int(input("Enter Start of range : \n"))
-r2 = int(input("Enter End of range : \n"))
-
-for a in range(r1,r2+1):
-    for j in range(2,a):
-        if a % j == 0:
-            break
-    else:
-        print( a , end=" ")
-
-
-# In[7]:
-
-
+#question 7
 for a in range(1,500+1):
     if a % 7 == 0 and a% 11 == 0:
         print(a)
 
 
-# In[8]:
 
 
+#question 8
 num1 = int(input("Enter 1st Number : "))
 num2 = int(input("Enter 2nd Number : "))
 num3 = int(input("Enter 3rd Number : "))
@@ -151,9 +141,7 @@ for a in range (10):
     print ( i ,"occurs", x+y+z+w, "times")
 
 
-# In[9]:
-
-
+#question 9
 my_list = []
 i=True
 while i == True:
