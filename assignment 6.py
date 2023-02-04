@@ -1,9 +1,8 @@
 #!/usr/bin/env python
 # coding: utf-8
+#assignment 6
 
-# In[1]:
-
-
+#question 1
 x = int(input("Please enter a number : \n"))
 
 
@@ -20,10 +19,7 @@ def perfect_number(num):
     
 print(perfect_number(x))
 
-
-# In[2]:
-
-
+#question 2
 print("PROGRAM TO CHECK PALINDROME")
 
 y = input("Enter a word, phrase, sequence or number : \n")
@@ -41,9 +37,7 @@ def is_palindrome(string):
 print(is_palindrome(y))
 
 
-# In[3]:
-
-
+#question 3
 n = int(input("Enter the number of rows : \n"))
 
 def pascalsTriangle(n):
@@ -57,10 +51,7 @@ def pascalsTriangle(n):
 
 pascalsTriangle(n)
 
-
-# In[4]:
-
-
+#question 4
 x= input("Enter the string : ")
 
 def is_pangram(string):
@@ -73,7 +64,13 @@ def is_pangram(string):
 is_pangram(x)
 
 
-# In[ ]:
+#question 5
+a=input("Enter a string seperated by hyphens(-)")
+a=a.replace("-"," ")
+list_1=list(a.split())
+list_1.sort()
+b="-".join(list_1)
+print(b)
 
 
 
